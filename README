@@ -1,0 +1,25 @@
+w340_casperjs_wordpress_install: install wordpress using casperjs
+=================================================================
+
+Install WordPress using CasperJS script
+
+Configuration
+=============
+
+$ sed -i s/dbval/xxx/g install.js	# database
+$ sed -i s/urlval/yyy/g install.js	# site url
+
+Example
+=======
+
+$ cd path/to/wordpress/dir
+$ chmod 777 .	# apache should have rights to create wp-config.php
+$ db/install	# configure database
+$ ./install.js
+$ chmod 755 .
+
+Reference
+=========
+
+CasperJS
+http://casperjs.org
