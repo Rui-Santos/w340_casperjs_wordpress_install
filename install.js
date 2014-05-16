@@ -6,7 +6,7 @@ var config = {
 	mysql_database: 'dbval',
 	mysql_hostname: 'localhost',
 	blog_baseurl: 'http://urlval',
-	blog_title: 'ThemeFuse Shopping',
+	blog_title: 'titleval',
 	blog_username: 'admin',
 	blog_password: 'admin',
 	blog_email: 'example@example.com',

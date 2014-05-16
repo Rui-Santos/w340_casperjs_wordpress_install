@@ -6,8 +6,9 @@ Install WordPress using CasperJS script
 Configuration
 =============
 
-$ sed -i s/dbval/xxx/g install.js	# database
-$ sed -i s/urlval/yyy/g install.js	# site url
+$ sed -i s/dbval/xxx/g install.js		# database
+$ sed -i s/urlval/yyy/g install.js		# site url
+$ sed -i s/titleval/Blog Title/g install.js	# title
 
 Example
 =======
